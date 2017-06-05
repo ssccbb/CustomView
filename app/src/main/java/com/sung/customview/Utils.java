@@ -1,0 +1,16 @@
+package com.sung.customview;
+
+import android.content.Context;
+
+/**
+ * Created by sung on 2017/6/5.
+ */
+
+public class Utils {
+    public static int dip2px(Context context, float dipValue) {
+
+        final float scale = context.getResources().getDisplayMetrics().density;
+
+        return (int) (dipValue * scale + 0.5f);
+    }
+}

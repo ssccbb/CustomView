@@ -37,4 +37,10 @@
     <declare-styleable name="TextViewWithFont">
         <attr name="oakFont" format="reference|string" />
     </declare-styleable>
+
+    <declare-styleable name="StarRateBar">
+        <attr name="totalStar" format="integer" />
+        <attr name="starFull" format="integer" />
+        <attr name="touchAble" format="boolean" />
+    </declare-styleable>
 </resources>
